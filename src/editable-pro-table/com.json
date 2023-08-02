@@ -1,9 +1,9 @@
 {
   "title": "可编辑表格",
   "namespace": "mybricks.pro-pc.editable-pro-table",
-  "author": "ZhuPengqiang",
-  "author_name": "朱鹏强",
-  "version": "1.0.0",
+  "author": "MyBricks",
+  "author_name": "MyBricks",
+  "version": "1.0.1",
   "description": "",
   "icon": "./icon.svg",
   "data": "./data.json",

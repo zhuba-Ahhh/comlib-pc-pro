@@ -47,10 +47,10 @@ export default [
         type: 'switch',
         value: {
           get({ data }: EditorResult<Data>) {
-            return data.useAutoSave;
+            return data.clickChangeToedit;
           },
           set({ data }: EditorResult<Data>, val: boolean) {
-            data.useAutoSave = !!val;
+            data.clickChangeToedit = !!val;
           }
         }
       },

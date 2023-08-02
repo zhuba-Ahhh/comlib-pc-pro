@@ -375,7 +375,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
               <div
                 key={JSON.stringify(record[`${item.dataIndex}`])}
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -414,7 +414,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -443,7 +443,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -481,7 +481,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -512,7 +512,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -537,7 +537,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -564,7 +564,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -591,7 +591,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -616,7 +616,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
@@ -648,7 +648,7 @@ export default function ({ data, slots, inputs, outputs, env, logger }: RuntimeP
             return (
               <div
                 onClick={() => {
-                  if (env.edit || data.clickChangeToedit) return;
+                  if (env.edit || !data.clickChangeToedit) return;
                   action?.startEditable?.(record?.[rowKey]);
                 }}
               >
